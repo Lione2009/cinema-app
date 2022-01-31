@@ -1,6 +1,6 @@
 package cinema.model;
 
-public enum RoleEnum {
+public enum RoleName {
     USER,
     ADMIN;
 }

@@ -7,6 +7,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"cinema"})
+@ComponentScan(basePackages = {"cinema.controller"})
 public class WebConfig implements WebMvcConfigurer {
 }
